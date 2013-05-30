@@ -11,7 +11,7 @@ module ActiveAdmin
 
       def powered_by_message
         para I18n.t('active_admin.powered_by',
-          :active_admin => link_to("DHARMA Dev.", "http://www.hasmind.net"),
+          :active_admin => link_to("DHARMA Dev. CMS", "http://www.hasmind.net"),
           :version => ActiveAdmin::VERSION).html_safe
       end
 
